@@ -1,0 +1,155 @@
+body{
+
+}
+a{
+    text-decoration: none;
+    margin: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.home-page{
+    background-image: url("imageshop.jpg");
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.home-message{
+    margin-top: 20%;
+    font-size: xx-large;
+    color: aliceblue;
+    margin-left: 5%;
+}
+.discover-button{
+    padding: 15px 55px;
+    background-color: #f783ac;
+    border-radius: 10px;
+}
+.second-title{
+    margin-left: 40%;
+}
+
+.dressing{
+    display: flex;
+    font-size: larger;
+    margin-right: 10%;
+}
+.tops{
+    margin-left: 10%;
+}
+.images1{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer-message{
+    display: flex;
+    justify-content: space-between;
+}
+.enter{
+    padding: 14px 50px;
+    border-radius: 10px;
+}
+.Subscribe{
+    padding: 12px 45px;
+    background-color: #f783ac;
+    border-radius: 10px;
+}
+.office{
+    width: 100%;
+}
+.welcome{
+    margin-left: 40%;
+}
+.hotel{
+    font-size: large;
+    margin-left: 30%;
+}
+.hotel-name{
+    margin-left: 35%;
+}
+.girls-image{
+   display: flex;
+   margin-top: 10%; 
+
+}
+/* .gymgirl{
+    width: 80%;
+    height: 87%;
+    
+}
+.officegirl{
+width: 100%;
+    
+}
+.girls{
+margin-right: 10%;
+    
+} */
+.girl1{
+    width: 75%;
+}
+.girl{
+    width: 65%;
+}
+.view-button{
+    margin-left: 40%;
+    padding: 15px 40px;
+    background-color: #f783ac;
+    border-radius: 15px;
+}
+.last{
+    color: blue;
+    display: flex;
+    font-family: italic;
+}
+.ion{
+    align-items: center;
+    
+}
+.lady1{
+background-image: url("sungy.jpg");
+width: 100%;
+background-size: cover;
+height: 100vh;
+}
+.lady2 {
+    background-image: url("redlady.jpg");
+    height: 50vh;
+    background-size: cover;
+    padding-top: 30%;
+    
+}
+
+.lady3{
+    background-image: url("jea.jpg");
+    height: 60%;
+    padding-top: 30%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.ladies{
+    display: flex;
+}
+.ladies2{
+    margin-left: 10%;
+    width: 100%;
+    height: 60%;
+}
+.new{
+    margin-top: 60%;
+}
+.show{
+    background-color: #f783ac;
+    padding: 15px 35px;
+    border-radius: 10px;
+}
+@media screen and (max-width:768px){
+    .girls-image{
+        flex-direction: column;
+    }
+}
