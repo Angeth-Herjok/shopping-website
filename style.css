@@ -152,4 +152,16 @@ height: 100vh;
     .girls-image{
         flex-direction: column;
     }
+    .home-message{
+        font-size: medium;
+    }
+    .footer-message{
+        flex-direction: column;
+    }
+    .view-button{
+        margin-top: 10%;
+    }
+    .ladies{
+        margin-top: 10%;
+    }
 }
